@@ -30,7 +30,7 @@ export default function LandingPage() {
     };
 
     animateCount(36, 'students');
-    animateCount(1, 'achievements');
+    animateCount(2, 'achievements');
     animateCount(2, 'projects');
   }, []);
 
