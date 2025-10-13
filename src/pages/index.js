@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Users, Award, Calendar, BookOpen, Code, Wifi, Trophy, Zap, ChevronDown, Cog } from 'lucide-react';
+import { Menu, X, Users, Award, Calendar, BookOpen, Code, Wifi, Trophy, Zap, ChevronDown, Cog, Instagram, MessageCircle } from 'lucide-react';
 
 export default function LandingPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -398,6 +398,62 @@ export default function LandingPage() {
         </div>
       </section>
 
+      {/* Social Media Section */}
+      <section style={{ backgroundColor: primaryColor }}>
+        <div className="container mx-auto px-4 py-12 sm:py-16">
+          <div className="text-center">
+            <h2 className="mb-8 text-2xl sm:text-3xl md:text-4xl font-bold text-white">Ikuti Kami</h2>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-6">
+              <a
+                href="https://instagram.com/oneformatics"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center gap-3 rounded-lg bg-white/10 backdrop-blur-sm px-6 sm:px-8 py-4 transition-all hover:bg-white/20 hover:scale-105 w-full sm:w-auto max-w-sm"
+              >
+                <Instagram className="h-6 w-6 text-white flex-shrink-0" />
+                <div className="text-left">
+                  <p className="text-sm text-blue-200">Instagram</p>
+                  <p className="font-semibold text-white">@oneformatics</p>
+                </div>
+              </a>
+
+              <a
+                href="https://tiktok.com/@oneformatic.pal"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center gap-3 rounded-lg bg-white/10 backdrop-blur-sm px-6 sm:px-8 py-4 transition-all hover:bg-white/20 hover:scale-105 w-full sm:w-auto max-w-sm"
+              >
+                <svg
+                  className="h-6 w-6 text-white flex-shrink-0"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z" />
+                </svg>
+                <div className="text-left">
+                  <p className="text-sm text-blue-200">TikTok</p>
+                  <p className="font-semibold text-white">@oneformatic.pal</p>
+                </div>
+              </a>
+
+              <a
+                href="https://discord.gg/S3M6XCamYV"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center gap-3 rounded-lg bg-white/10 backdrop-blur-sm px-6 sm:px-8 py-4 transition-all hover:bg-white/20 hover:scale-105 w-full sm:w-auto max-w-sm"
+              >
+                <MessageCircle className="h-6 w-6 text-white flex-shrink-0" />
+                <div className="text-left">
+                  <p className="text-sm text-blue-200">Discord</p>
+                  <p className="font-semibold text-white">Join Server</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="py-12 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: primaryColor, borderTop: '1px solid rgba(255, 255, 255, 0.1)' }}>
         <div className="max-w-7xl mx-auto">
@@ -420,21 +476,6 @@ export default function LandingPage() {
             <div>
               <h4 className="font-semibold mb-4" style={{ color: secondaryColor }}>Quick Links</h4>
               <ul className="space-y-2 text-sm">
-                <li>
-                  <a href='https://tiktok.com/@oneformatic.pal' target='_blank' rel="noopener noreferrer" className="transition hover:opacity-80" style={{ color: 'rgba(255, 255, 255, 0.8)' }}>
-                    Tiktok Oneformatic
-                  </a>
-                </li>
-                <li>
-                  <a href='https://instagram.com/oneformatics' target='_blank' rel="noopener noreferrer" className="transition hover:opacity-80" style={{ color: 'rgba(255, 255, 255, 0.8)' }}>
-                    Instagram Oneformatic
-                  </a>
-                </li>
-                <li>
-                  <a href='https://discord.gg/S3M6XCamYV' target='_blank' rel="noopener noreferrer" className="transition hover:opacity-80" style={{ color: 'rgba(255, 255, 255, 0.8)' }}>
-                    Discord Oneformatic
-                  </a>
-                </li>
                 <li>
                   <a href="https://oneformatic.vercel.app/" target="_blank" rel="noopener noreferrer" className="transition hover:opacity-80" style={{ color: 'rgba(255, 255, 255, 0.8)' }}>
                     Manajemen Kelas
