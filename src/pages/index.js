@@ -55,7 +55,7 @@ export default function LandingPage() {
                 <div className="w-12 h-12 rounded-lg flex items-center justify-center shadow-lg animate-pulse-subtle" style={{ background: `linear-gradient(135deg, ${primaryColor} 0%, #2d5dd9 100%)` }}>
                   <Code className="h-6 w-6" style={{ color: secondaryColor }} />
                 </div>
-                <div className="absolute -top-1 -right-1 w-4 h-4 bg-green-400 rounded-full animate-ping"></div>
+                {/* <div className="absolute -top-1 -right-1 w-4 h-4 bg-green-400 rounded-full animate-ping"></div> */}
               </div>
               <div>
                 <span className="text-xl font-bold transition-colors duration-300" style={{ color: scrolled ? primaryColor : secondaryColor }}>X TKJ 1</span>
@@ -420,6 +420,21 @@ export default function LandingPage() {
             <div>
               <h4 className="font-semibold mb-4" style={{ color: secondaryColor }}>Quick Links</h4>
               <ul className="space-y-2 text-sm">
+                <li>
+                  <a href='https://tiktok.com/@oneformatic.pal' target='_blank' rel="noopener noreferrer" className="transition hover:opacity-80" style={{ color: 'rgba(255, 255, 255, 0.8)' }}>
+                    Tiktok Oneformatic
+                  </a>
+                </li>
+                <li>
+                  <a href='https://instagram.com/oneformatics' target='_blank' rel="noopener noreferrer" className="transition hover:opacity-80" style={{ color: 'rgba(255, 255, 255, 0.8)' }}>
+                    Instagram Oneformatic
+                  </a>
+                </li>
+                <li>
+                  <a href='https://discord.gg/S3M6XCamYV' target='_blank' rel="noopener noreferrer" className="transition hover:opacity-80" style={{ color: 'rgba(255, 255, 255, 0.8)' }}>
+                    Discord Oneformatic
+                  </a>
+                </li>
                 <li>
                   <a href="https://oneformatic.vercel.app/" target="_blank" rel="noopener noreferrer" className="transition hover:opacity-80" style={{ color: 'rgba(255, 255, 255, 0.8)' }}>
                     Manajemen Kelas
