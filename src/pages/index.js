@@ -357,10 +357,10 @@ export default function LandingPage() {
           <div className="animate-on-scroll">
             <Calendar className="h-24 w-24 mx-auto mb-6 animate-float" style={{ color: secondaryColor, opacity: 0.7 }} />
             <h2 className="text-5xl font-bold mb-4" style={{ color: secondaryColor }}>
-              Galeri Segera Hadir
+              Galeri Kami
             </h2>
             <p className="text-xl max-w-2xl mx-auto mb-8" style={{ color: 'rgba(255, 255, 255, 0.9)' }}>
-              Dokumentasi kegiatan dan momen berharga kelas X TKJ 1 akan segera tersedia
+              Dokumentasi kegiatan dan momen berharga kelas X TKJ 1 ada disini
             </p>
             <a // <-- Changed div to a for redirection
               href={galleryUrl} // <-- UPDATED LINK
