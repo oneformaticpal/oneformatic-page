@@ -5,7 +5,7 @@ Website profil dan landing page untuk kelas **X TKJ 1 SMKN 3 Buduran**. Website 
 ## 🚀 Fitur Utama
 
 - **Informasi Kelas**: Profil lengkap kelas X TKJ 1, visi misi, dan semangat "Belajar, Berkarya, dan Berinovasi Bersama".
-- ** Statistik Kelas**: Menampilkan jumlah siswa, prestasi, dan project yang telah diselesaikan.
+- **Statistik Kelas**: Menampilkan jumlah siswa, prestasi, dan project yang telah diselesaikan.
 - **Galeri & Dokumentasi**: Akses ke foto-foto kegiatan dan acara kelas.
 - **Navigasi Cepat**: Link langsung ke Manajemen Kelas dan Dashboard.
 - **Desain Interaktif**: Menggunakan animasi modern, efek paralaks, dan tata letak responsif untuk pengalaman pengguna yang menarik.
