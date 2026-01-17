@@ -29,7 +29,7 @@ export default function LandingPage() {
       }, 30);
     };
 
-    animateCount(36, 'students');
+    animateCount(35, 'students');
     animateCount(2, 'achievements');
     animateCount(2, 'projects');
   }, []);
@@ -38,7 +38,7 @@ export default function LandingPage() {
   const secondaryColor = '#ffffff';
 
   // --- New Gallery URL Constant ---
-  const galleryUrl = 'https://oneformaticgallery.vercel.app/';
+  const galleryUrl = 'https://oneformatics.vercel.app/';
 
   return (
     <div className="min-h-screen bg-white overflow-x-hidden">
