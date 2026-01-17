@@ -27,7 +27,6 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di komputer lokal And
     git clone https://github.com/username/oneformatic-page.git
     cd oneformatic-page
     ```
-    *(Ganti URL repository dengan URL yang sesuai jika berbeda)*
 
 2.  **Install Dependencies**
 
