@@ -83,4 +83,4 @@ Cara termudah untuk men-deploy aplikasi Next.js adalah menggunakan [Vercel](http
 4.  Klik **Deploy**. Vercel akan otomatis mendeteksi konfigurasi Next.js dan melakukan build.
 
 ---
-&copy; 2025 X TKJ 1 SMKN 3 Buduran. All rights reserved.
+&copy; 2026 X TKJ 1 SMKN 3 Buduran. All rights reserved.
