@@ -24,7 +24,7 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di komputer lokal And
 1.  **Clone Repository**
 
     ```bash
-    git clone https://github.com/username/oneformatic-page.git
+    git clone https://github.com/oneformaticpal/oneformatic-page.git
     cd oneformatic-page
     ```
 
